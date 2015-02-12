@@ -15,9 +15,9 @@ Feature: Login Authentication
     Examples:
       | username | password |account_name|
       |superadmin|o2qidk426L|Super Admin |
-      #|superadmin|o2qidk426| Invalid username or password.|
-      #|          |         | The username field is required.|
-      #|superadmin|         | The password field is required.|
+      |superadmin|o2qidk426| Invalid username or password.|
+      |          |         | The username field is required.|
+      |superadmin|         | The password field is required.|
 
 
   Scenario Outline: Reset Password
