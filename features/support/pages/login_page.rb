@@ -3,7 +3,7 @@ class LoginPage
   include PageObject
   #include RSpec::Matches
 
-  page_url FigNewton.base_url
+  #page_url FigNewton.base_url
 
   text_field :username, id: 'username'
   text_field :password, id:'password'

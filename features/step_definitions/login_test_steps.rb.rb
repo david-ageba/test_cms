@@ -1,8 +1,8 @@
 Given(/^I am on Hearst Expression Engine login page$/) do
   #@browser.goto "http://cmsbeta.goodhousekeeping.co.uk/admin.php?"
-  #@browser.goto "http://cms.ghstaging.hdigital.net/institute/admin.php?"
+  @browser.goto "http://cms.ghstaging.hdigital.net/institute/admin.php?"
 
-  visit_page(LoginPage)
+  #visit_page(LoginPage)
   sleep 1
 end
 
